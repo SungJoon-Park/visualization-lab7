@@ -16,12 +16,22 @@
 
         <link rel="stylesheet" href="style.css" />
         <script defer src="https://d3js.org/d3.v6.min.js"></script>
+        <script defer src="https://unpkg.com/topojson@3"></script>
         <script src="script.js" defer type="module"></script>
 
     </head>
 
     <body>
-        <h1>Airport Connection</h1>
+        <div class="container">
+            <h1>Airport Connections</h1>
+            <div class="row">
+                <input type="radio" id="force" name="type" value="Force">
+                <label id ="label" for = "Force">Force<br></label>
+                <input type="radio" id="map" name="type" value="Map">
+                <label id ="label" for = "Map">Map</label>
+            </div>
+        </div>
+
     </body>
 
 </html>

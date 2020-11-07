@@ -1,5 +1,19 @@
 h1 {
     color: #0066CC;
     font-style: italic;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
+
+/* /#force,
+#map {
+    margin-left: 10px;
+    display:center;
+    top:10px;
+    text-align:center;
+} */
+label {
+    margin-left:5px;
+    margin-right:5px;
+
+} 
